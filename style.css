@@ -1,0 +1,29 @@
+/* Import custom fonts */
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1 {
+    font-family: "Red Hat Display";
+}
+
+h3 {
+    font-family: "Play";
+}
+
+body {
+    background-color: #51b1b8e2;
+}
+
+p {
+    color: rgba(21, 8, 133, 0.942);
+    font-family: "Red Hat Display";
+}
+
+p#cm{
+    font-size: 14pt;
+    color: blueviolet;
+}
+
+img#bd {
+    width: 60mm;
+}
