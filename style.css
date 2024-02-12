@@ -6,6 +6,14 @@ h1 {
     font-family: "Red Hat Display";
 }
 
+h1#title {
+    text-align: center;
+}
+
+h2.welcome {
+    font-family: "Play";
+}
+
 h3 {
     font-family: "Play";
 }
@@ -26,4 +34,31 @@ p#cm{
 
 img#bd {
     width: 60mm;
+}
+
+/* Navigation bar styling */
+.navbar li {
+    display: inline-block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgba(156, 207, 190, 0.805);
+    padding: 10px;
+    color: #2fa2fa;
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 13pt;
+}
+
+.navbar a {
+    color:rgb(36, 106, 181);
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: right;
+}
+
+.navbar a:hover {
+    color: hsl(0, 0%, 10%)
 }
