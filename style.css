@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+* {
+    color: white;
+}
+
 h1 {
     font-family: "Red Hat Display";
 }
@@ -19,11 +23,11 @@ h3 {
 }
 
 body {
-    background-color: #51b1b8e2;
+    background-color: #004643;
 }
 
 p {
-    color: rgba(21, 8, 133, 0.942);
+    color: white;
     font-family: "Red Hat Display";
 }
 
@@ -39,16 +43,20 @@ img#bd {
 /* Navigation bar styling */
 .navbar li {
     display: inline-block;
+    background-color: #f9bc60;
+    color: #001e1d;
+    border-radius: 20px;
 }
 
 .navbar ul {
     list-style-type: none;
     background-color: rgba(156, 207, 190, 0.805);
     padding: 10px;
+    margin: 10px;
     color: #2fa2fa;
     text-align: center;
     font-family: "Red Hat Display";
-    font-size: 13pt;
+    font-size: 20pt;
 }
 
 .navbar a {
