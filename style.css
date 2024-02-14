@@ -14,6 +14,7 @@
 .navbar ul {
     list-style-type: none;
     background-color: rgba(156, 207, 190, 0.805);
+    border-radius: 20px;
     padding: 10px;
     color: #2fa2fa;
     text-align: center;
@@ -64,7 +65,6 @@ p {
 
 p#cm{
     font-size: 14pt;
-    color: blueviolet;
 }
 
 img#bd {
@@ -92,5 +92,31 @@ img#bd {
 .ct {
     text-decoration: none;
     font-family: "Red Hat Display";
-    color:rgba(21, 8, 133, 0.942)
+    background-color: #e16162;
+    border-radius: 20pt;
+    padding: 4px;
+    color:#001e1d;
 }
+
+.logo {
+    height: 2cm;
+    margin-bottom: 10pt;
+}
+
+/* 
+**COLOR PALETTE FOR FUTURE REF**
+
+*Elements*
+Background: #004643
+Headline: #fffffe
+Paragraph: #abd1c6
+Button: #f9bc60
+Button text: #001e1d
+
+*Illustration*
+Stroke: #001e1d
+Main: #e8e4e6
+Highlight: #f9bc60
+Secondary: #abd1c6
+Tertiary: #e16162
+*/
