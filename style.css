@@ -4,6 +4,7 @@
 
 * {
     color: white;
+    font-family: "Red Hat Display";
 }
 
 /* Navigation bar styling */
@@ -18,12 +19,11 @@
     padding: 10px;
     color: #2fa2fa;
     text-align: center;
-    font-family: "Red Hat Display";
     font-size: 13pt;
 }
 
 .navbar a {
-    color: rgb(36, 106, 181);
+    color: #246ab5;
     text-decoration: none;
     padding: 5px;
     display: block;
@@ -38,23 +38,10 @@
     background-color: #2fa2fa;
 }
 
-h1,
-h2 {
-    font-family: "Red Hat Display";
-}
-
 h1#title {
     text-align: center;
 }
 
-h2.welcome {
-    font-family: "Play";
-}
-
-h3,
-h4 {
-    font-family: "Play";
-}
 
 body {
     background-color: #004643;
@@ -62,7 +49,6 @@ body {
 
 p {
     color: white;
-    font-family: "Red Hat Display";
 }
 
 p.cm {
@@ -88,17 +74,23 @@ img.flag {
     padding: 10px;
     color: #2fa2fa;
     text-align: center;
-    font-family: "Red Hat Display";
     font-size: 13pt;
 }
 
 .ct {
     text-decoration: none;
-    font-family: "Red Hat Display";
     background-color: #e16162;
     border-radius: 20pt;
     padding: 4px;
     color: #001e1d;
+}
+
+.projlink {
+    text-decoration: none;
+    background-color: #f9bc60;
+    color:#001e1d;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .logo {
@@ -106,12 +98,17 @@ img.flag {
     margin-bottom: 10pt;
 }
 
+/* Image styling */
 #amogus {
     width: 6px;
 }
 
 #gamingpc {
     width: 10cm;
+}
+
+.gallery {
+    width: 8cm;
 }
 
 /* 
