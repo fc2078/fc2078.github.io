@@ -77,6 +77,10 @@ img.flag {
     font-size: 13pt;
 }
 
+#impTbag {
+    color: rgb(235, 58, 58);
+}
+
 .ct {
     text-decoration: none;
     background-color: #e16162;
@@ -85,12 +89,17 @@ img.flag {
     color: #001e1d;
 }
 
+.pcBuild {
+    width: 200pt;
+}
+
 .projlink {
     text-decoration: none;
     background-color: #f9bc60;
     color:#001e1d;
     padding: 5px;
     border-radius: 20px;
+    border: 10px;
 }
 
 .logo {
