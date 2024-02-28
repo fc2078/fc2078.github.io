@@ -8,7 +8,6 @@
 }
 
 /* Navigation bar styling */
-
 .navbar ul {
     list-style-type: none;
     background-color: rgba(156, 207, 190, 0.805);
@@ -40,13 +39,20 @@
     background-color: #2fa2fa;
 }
 
-.navbar li {
+.navbar li:nth-child(even) {
     display: inline-block;
     background-color: #f9bc60;
     color: #001e1d;
     border-radius: 20px;
 }
 
+.navbar li:nth-child(odd) {
+    display: inline-block;
+    background-color: #e99311;
+    color: #001e1d;
+    border-radius: 20px;
+}
+/* end */
 
 h1#title {
     text-align: center;
@@ -66,9 +72,10 @@ img.flag {
 }
 
 #impTbag {
-    color: rgb(235, 58, 58);
+    color: rgb(252, 84, 84);
 }
 
+/* Contant Link Styling */
 .ct {
     text-decoration: none;
     background-color: #e16162;
@@ -77,19 +84,41 @@ img.flag {
     color: #001e1d;
 }
 
+.ct:visited {
+    background-color: #abd1c6;
+    color: #008c87;
+}
+
+/* end */
+
+/* PC Build Gallery Image Styling */
 .pcBuild {
     width: 200pt;
 }
 
+/* end */
+
+/* Project Link Styling */
 .projlink {
     text-decoration: none;
     background-color: #f9bc60;
-    color:#001e1d;
+    color: #001e1d;
     padding: 5px;
     border-radius: 20px;
     border: 10px;
 }
-/*  */
+
+.projlink:hover {
+    background-color: #2fa2fa;
+    color: #001e1d;
+}
+
+.projlink:visited {
+    background-color: #abd1c6;
+    color: #008c87;
+}
+/* end */
+
 
 
 /* Image styling */
@@ -109,7 +138,7 @@ img.flag {
     height: 2cm;
     margin-bottom: 10pt;
 }
-/*  */
+/* end */
 
 /* 
 **COLOR PALETTE FOR FUTURE REF**
@@ -119,7 +148,7 @@ Background: #004643
 Headline: #fffffe
 Paragraph: #abd1c6
 Button: #f9bc60
-Button text: #001e1d
+Button text: #2fa2fa
 
 *Illustration*
 Stroke: #001e1d
