@@ -32,11 +32,9 @@
 }
 
 .navbar a:hover {
-    color: hsl(0, 0%, 10%)
-}
-
-.navbar li:hover {
+    color: hsl(0, 0%, 10%);
     background-color: #2fa2fa;
+    border-radius: 20px;
 }
 
 .navbar li:nth-child(even) {
