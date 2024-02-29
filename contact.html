@@ -19,7 +19,43 @@
         </ul>
     </nav>
     <h1>Contact Me!</h1>
-    <p>Feel free to get in touch with me when you need it. Check out my GitHub page for my projects, email for all inquiries, and Instagram for my personal life.</p>
+    <p>Feel free to get in touch with me when you need it. Feel free to fill out the form below:</p>
+    <h3>Contact Form:</h3>
+        <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+            <p>Title:</p>
+            <input type="radio" id="mr" name="title" value="mr">
+            <label for="mr">Mr.</label>
+            <br>
+            <input type="radio" id="ms" name="title" value="ms">
+            <label for="ms">Ms.</label>
+            <br>
+            <input type="radio" id="dr" name="title" value="dr">
+            <label for="mr">Dr.</label>
+            <br>
+            <label for="fname">First name:</label>
+            <br>
+            <input type="text" id="fname" name="fname" placeholder="You" required>
+            <br>
+            <label for="lname">Last name:</label>
+            <br>
+            <input type="text" id="lname" name="lname" placeholder="Also you" required>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="youraddresshere@website.com" required>
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <input type="text" id="message" name="message" placeholder="Ask away..." required>
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit">
+            <input name="send-to" value="fchowdury@brooklnsteamcenter.org" hidden>
+        </form>
+    <br>
+    <hr>
+    <p>Also feel free to check out my GitHub page for my projects and Instagram for my personal life, or email me.</p>
     <h3>Instagram</h3>
     <img src="images/logos/instagram.png" class="logo" alt="Instagram Logo">
     <br>
@@ -29,7 +65,8 @@
     <br>
     <a href="https://github.com/fc2078" class="ct">fc2078</a>
     <br>
-    <h3 id="email">Email: fchowdury@brooklynsteamcenter.org</h3>
+    <hr>
+    <h3>Email: fchowdury@brooklynsteamcenter.org</h3>
 </body>
 
 </html>

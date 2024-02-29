@@ -73,7 +73,7 @@ img.flag {
     color: rgb(252, 84, 84);
 }
 
-/* Contant Link Styling */
+/* Contact Link Styling */
 .ct {
     text-decoration: none;
     background-color: #e16162;
@@ -117,7 +117,26 @@ img.flag {
 }
 /* end */
 
+/* Form styling */
+input#message {
+    width: 50%;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
 
+input#fname, input#lname {
+    width: 40%
+}
+
+input[type=text] {
+    color: black;
+}
+
+input[type=email] {
+    color: black;
+    width: 50%;
+}
+/* end */
 
 /* Image styling */
 #amogus {
