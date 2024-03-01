@@ -136,6 +136,15 @@ input[type=email] {
     color: black;
     width: 50%;
 }
+
+input {
+    border-color: #f9bc60;
+}
+
+input[type=submit], input[type=reset] {
+    color: black;
+    background-color: #e99311;
+}
 /* end */
 
 /* Image styling */
