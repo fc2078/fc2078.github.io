@@ -73,7 +73,7 @@ img.flag {
     color: rgb(252, 84, 84);
 }
 
-/* Contact Link Styling */
+/* Contact Page Styling */
 .ct {
     text-decoration: none;
     background-color: #e16162;
@@ -87,6 +87,29 @@ img.flag {
     color: #008c87;
 }
 
+.fa-square-instagram {
+    font-size: 50pt;
+    color: #cd486b;
+}
+
+.fa-square-github {
+    font-size: 50pt;
+    color: #f5f5f5;
+}
+
+.fa-linkedin {
+    font-size: 50pt;
+    color: #0077b5;
+}
+
+.fa-envelope {
+    font-size: 15pt;
+    color:#5ce2aada;
+}
+
+h1#contactMe, h3#contactForm {
+    text-align: center;
+}
 /* end */
 
 /* PC Build Gallery Image Styling */
@@ -158,11 +181,6 @@ input[type=submit], input[type=reset] {
 
 .gallery {
     width: 8cm;
-}
-
-.logo {
-    height: 2cm;
-    margin-bottom: 10pt;
 }
 /* end */
 
