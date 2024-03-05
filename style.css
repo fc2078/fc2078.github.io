@@ -7,7 +7,6 @@
     color: white;
     font-family: "Red Hat Display";
 }
-
 /* end */
 
 /* Navigation bar styling */
@@ -34,20 +33,20 @@
     top: 0;
 }
 
-.navbar a:hover {
+a:hover {
     color: hsl(0, 0%, 10%);
     background-color: #2fa2fa;
     border-radius: 20px;
 }
 
-.navbar li:nth-child(even) {
+.navbar li:nth-child(odd) {
     display: inline-block;
     background-color: #f9bc60;
     color: #001e1d;
     border-radius: 20px;
 }
 
-.navbar li:nth-child(odd) {
+.navbar li:nth-child(even) {
     display: inline-block;
     background-color: #e99311;
     color: #001e1d;
@@ -102,7 +101,7 @@ img.flag {
 
 .fa-square-github {
     font-size: 50pt;
-    color: #f5f5f5;
+    color: #c76ff0;
 }
 
 .fa-linkedin {
@@ -192,6 +191,12 @@ input[type=reset] {
     background-color: #e99311;
 }
 
+input[type=submit]:hover,
+input[type=reset]:hover {
+    color: hsl(0, 0%, 10%);
+    background-color: #2fa2fa;
+}
+
 /* end */
 
 /* Image styling */
@@ -207,6 +212,26 @@ input[type=reset] {
     width: 8cm;
 }
 
+/* end */
+
+/* Media Queries */
+@media (min-width: 320px) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+      flex-direction: row;
+    }
+}
+  
+@media (orientation: portrait) {
+    body {
+      flex-direction: column;
+    }
+}
 /* end */
 
 /* 
