@@ -232,6 +232,12 @@ input[type=reset]:hover {
       flex-direction: column;
     }
 }
+
+@media (print) {
+    * {
+        display: none;
+    }
+}
 /* end */
 
 /* 
