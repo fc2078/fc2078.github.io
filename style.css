@@ -25,7 +25,7 @@
     text-decoration: none;
     padding: 5px;
     display: block;
-    text-align: right;
+    text-align: center;
 }
 
 .navbar {
@@ -74,6 +74,7 @@ p#setup {
 
 img.flag {
     width: 60mm;
+    margin: 5px;
 }
 
 #impTbag {
@@ -94,6 +95,18 @@ img.flag {
     color: #008c87;
 }
 
+.links {
+    display: flex;
+    background-color: #008c87;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.linksch {
+    text-align: center;
+    margin: 0 auto;
+}
+
 .fa-square-instagram {
     font-size: 50pt;
     color: #cd486b;
@@ -101,12 +114,12 @@ img.flag {
 
 .fa-square-github {
     font-size: 50pt;
-    color: #c76ff0;
+    color: #2B3137;
 }
 
 .fa-linkedin {
     font-size: 50pt;
-    color: #0077b5;
+    color: #0A66C2;
 }
 
 .fa-envelope {
