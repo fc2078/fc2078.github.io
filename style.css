@@ -39,6 +39,11 @@ a:hover {
     border-radius: 20px;
 }
 
+a:active {
+    background-color: #26765f;
+    color: rgb(213, 213, 213);
+}
+
 .navbar li:nth-child(odd) {
     display: inline-block;
     background-color: #f9bc60;
