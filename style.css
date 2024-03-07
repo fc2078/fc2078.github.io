@@ -127,15 +127,6 @@ img.flag {
     color: #5ce2aada;
 }
 
-h1#contactMe,
-h3#contactForm {
-    text-align: center;
-}
-
-h3#contactForm {
-    font-size: 20pt;
-}
-
 /* end */
 
 /* PC Build Gallery Image Styling */
@@ -210,6 +201,14 @@ input[type=reset]:hover {
     background-color: #2fa2fa;
 }
 
+h1#contactMe,
+h3#contactForm {
+    text-align: center;
+}
+
+h3#contactForm {
+    font-size: 20pt;
+}
 /* end */
 
 /* Image styling */
