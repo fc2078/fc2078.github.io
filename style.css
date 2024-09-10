@@ -7,7 +7,12 @@
     color: white;
     font-family: "Red Hat Display";
 }
+
 /* end */
+
+ul.aboutMe {
+    font-size: 13pt;
+}
 
 /* Navigation bar styling */
 .navbar ul {
@@ -82,7 +87,7 @@ img.flag {
     margin: 5px;
 }
 
-#impTbag {
+.impProjq {
     color: rgb(252, 84, 84);
 }
 
@@ -214,11 +219,14 @@ h3#contactForm {
 h3#contactForm {
     font-size: 20pt;
 }
+
 /* end */
 
-/* Image styling */
-#amogus {
-    width: 6px;
+.farhan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #gamingpc {
@@ -227,6 +235,23 @@ h3#contactForm {
 
 .gallery {
     width: 8cm;
+}
+
+#certs .cert {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 7cm;
+}
+
+a#overviewAbout {
+    text-decoration: none;
+}
+
+a#overviewAbout:hover {
+    background-color: #004643;
+    color: #abd1c6;
 }
 
 /* end */
@@ -240,13 +265,13 @@ h3#contactForm {
 
 @media (orientation: landscape) {
     body {
-      flex-direction: row;
+        flex-direction: row;
     }
 }
-  
+
 @media (orientation: portrait) {
     body {
-      flex-direction: column;
+        flex-direction: column;
     }
 }
 
@@ -255,6 +280,7 @@ h3#contactForm {
         display: none;
     }
 }
+
 /* end */
 
 /* 
