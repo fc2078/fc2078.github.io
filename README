@@ -4,7 +4,6 @@ Click above to visit the website!
 # Janauary 2025 General Overhaul
 ### January 14, 2025
 - **Most upgrades have been completed**
-- `README.md` is now `changelog`
 - Remove `README.txt` and dev note on color palette *(new Colors via Bootstrap and more)*
 - Added two more games to Interests
 - Removed individualized stylesheets and re-merged into a single stylesheet for ease of use
