@@ -1,1 +1,0 @@
-NOTE: colorPalette.png is only for the dev reference

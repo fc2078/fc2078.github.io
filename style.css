@@ -1,302 +1,175 @@
-/* Import custom fonts */
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
-
-/* Universal styling */
-* {
-    color: white;
-    font-family: "Red Hat Display";
+/* Navbar */
+.nav-link {
+    transition: color 0.3s ease;
 }
 
-/* end */
-
-ul.aboutMe {
-    font-size: 13pt;
+.nav-link:hover {
+    color: #ffc107;
+    /* Gold on hover */
 }
 
-/* Navigation bar styling */
-.navbar ul {
-    list-style-type: none;
-    background-color: rgba(156, 207, 190, 0.805);
-    border-radius: 20px;
-    padding: 10px;
-    color: #2fa2fa;
-    text-align: center;
-    font-size: 13pt;
+/* About Me Section */
+h1,
+h3 {
+    transition: transform 0.3s ease;
 }
 
-.navbar a {
-    color: #246ab5;
+h1:hover,
+h3:hover {
+    transform: scale(1.05);
+    /* Slight zoom */
+}
+
+ul.aboutMe li {
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+ul.aboutMe li:hover {
+    background-color: #f0f8ff;
+    /* Light blue on hover */
+    padding-left: 10px;
+}
+
+/* Footer */
+footer a {
+    color: #ffc107;
     text-decoration: none;
-    padding: 5px;
-    display: block;
-    text-align: center;
+    transition: color 0.3s ease;
 }
 
-.navbar {
-    position: sticky;
-    top: 0;
+footer a:hover {
+    color: #f8d7da;
+    /* Light pink */
 }
 
-a:hover {
-    color: hsl(0, 0%, 10%);
-    background-color: #2fa2fa;
-    border-radius: 20px;
+/* Form Labels */
+form label {
+    font-weight: bold;
 }
 
-a:active {
-    background-color: #26765f;
-    color: rgb(213, 213, 213);
+/* Footer Links */
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.navbar li:nth-child(odd) {
-    display: inline-block;
-    background-color: #f9bc60;
-    color: #001e1d;
-    border-radius: 20px;
+footer a:hover {
+    color: #f8d7da;
+    /* Light pink */
 }
 
-.navbar li:nth-child(even) {
-    display: inline-block;
-    background-color: #e99311;
-    color: #001e1d;
-    border-radius: 20px;
+/* Custom CSS */
+
+/* Navbar */
+.navbar,
+.nav-link {
+    transition: color 0.3s ease;
 }
 
-/* end */
-
-h1.title {
-    text-align: center;
+.navbar:hover {
+    background-color: #0c63e4;
+    /* Slightly darker shade on hover */
 }
 
-body {
-    background-color: #004643;
-}
-
-p.cm {
-    font-size: 14pt;
+.nav-link:hover {
+    color: #ffc107;
+    /* Gold color on hover */
     text-decoration: underline;
+    /* Underline to indicate interactivity */
 }
 
-p#setup {
-    font-size: 8pt;
+/* Header Section */
+.title,
+.welcome {
+    transition: color 0.3s ease;
+}
+.title {
+    color: #0d6efd;
 }
 
-img.flag {
-    width: 60mm;
-    margin: 5px;
+.title:hover {
+    color: #6610f2;
+    /* Changes to purple on hover */
 }
 
-.impProjq {
-    color: rgb(252, 84, 84);
+.welcome {
+    font-size: 1.5rem;
+    color: #333;
 }
 
-/* Contact Page Styling */
-.ct {
+.welcome:hover {
+    transform: scale(1.1);
+    /* Slight zoom effect */
+    color: #0d6efd;
+    /* Blue on hover */
+}
+
+/* Overview Section */
+#overviewAbout {
+    text-decoration: underline;
+    color: #0d6efd;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#overviewAbout:hover {
+    color: #198754;
+    /* Green color on hover */
     text-decoration: none;
-    background-color: #e16162;
-    border-radius: 20pt;
-    padding: 4px;
-    color: #001e1d;
+    /* Remove underline on hover */
 }
 
-.ct:visited {
-    background-color: #abd1c6;
-    color: #008c87;
+/* Footer */
+footer {
+    background-color: #0d6efd;
+    color: #fff;
+    position: relative;
 }
 
-.links {
-    display: flex;
-    background-color: #008c87;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.linksch {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.fa-square-instagram {
-    font-size: 50pt;
-    color: #cd486b;
-}
-
-.fa-square-github {
-    font-size: 50pt;
-    color: #2B3137;
-}
-
-.fa-linkedin {
-    font-size: 50pt;
-    color: #0A66C2;
-}
-
-.fa-envelope {
-    font-size: 19pt;
-    color: #5ce2aada;
-}
-
-/* end */
-
-/* PC Build Gallery Image Styling */
-.pcBuild {
-    width: 200pt;
-}
-
-/* end */
-
-/* Project Link Styling */
-.projlink {
+footer a {
+    color: #ffc107;
     text-decoration: none;
-    background-color: #f9bc60;
-    color: #001e1d;
-    padding: 5px;
-    border-radius: 20px;
-    border: 10px;
+    transition: color 0.3s ease;
 }
 
-.projlink:hover {
-    background-color: #2fa2fa;
-    color: #001e1d;
+footer a:hover {
+    color: #f8d7da;
+    /* Light pink on hover */
 }
 
-.projlink:visited {
-    background-color: #abd1c6;
-    color: #008c87;
+/* Buttons */
+button {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* end */
-
-/* Form styling */
-#form {
-    background-color: #008c87;
-    padding: 20px;
-    border-radius: 20px;
+button:hover {
+    background-color: #6610f2;
+    /* Purple on hover */
+    transform: scale(1.05);
+    /* Slight zoom effect */
 }
 
-input#message {
-    width: 50%;
-    padding-bottom: 100px;
-    padding-right: 100px;
+/* Images */
+.gallery-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-input#fname,
-input#lname {
-    width: 40%
+.gallery-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-input[type=text] {
-    color: black;
+/* Card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
-
-input[type=email] {
-    color: black;
-    width: 50%;
-}
-
-input {
-    border-color: #f9bc60;
-}
-
-input[type=submit],
-input[type=reset] {
-    color: black;
-    background-color: #e99311;
-}
-
-input[type=submit]:hover,
-input[type=reset]:hover {
-    color: hsl(0, 0%, 10%);
-    background-color: #2fa2fa;
-}
-
-h1#contactMe,
-h3#contactForm {
-    text-align: center;
-}
-
-h3#contactForm {
-    font-size: 20pt;
-}
-
-/* end */
-
-.farhan {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#gamingpc {
-    width: 10cm;
-}
-
-.gallery {
-    width: 8cm;
-}
-
-#certs .cert {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    width: 7cm;
-}
-
-a#overviewAbout {
-    text-decoration: none;
-}
-
-a#overviewAbout:hover {
-    background-color: #004643;
-    color: #abd1c6;
-}
-
-/* end */
-
-/* Media Queries */
-@media (min-width: 320px) {
-    p {
-        font-size: 1.25rem;
-    }
-}
-
-@media (orientation: landscape) {
-    body {
-        flex-direction: row;
-    }
-}
-
-@media (orientation: portrait) {
-    body {
-        flex-direction: column;
-    }
-}
-
-@media (print) {
-    * {
-        display: none;
-    }
-}
-
-/* end */
-
-/* 
-**COLOR PALETTE FOR FUTURE REF**
-
-*Elements*
-Background: #004643
-Headline: #fffffe
-Paragraph: #abd1c6
-Button: #f9bc60
-Button text: #2fa2fa
-
-*Illustration*
-Stroke: #001e1d
-Main: #e8e4e6
-Highlight: #f9bc60
-Secondary: #abd1c6
-Tertiary: #e16162
-*/
